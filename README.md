@@ -73,6 +73,12 @@
 
 .mx-auto {
 } /* margin left and right (i.e. along x) to auto*/
+
+.inline-block {
+} /*display: inline-block*/
+
+.rounded-full {
+} /*cirulare border*/
 ```
 
 # 4. Responsive design (Media queries)
@@ -127,4 +133,26 @@
 
 .grid-rows-[auto_1fr_auto] {
 } /*grid-template-rows: auto 1fr auto;*/
+```
+
+# 7. Styling buttons: Element states and transitions.
+
+```css
+.hover:text-blue-600 {
+} /*on hover, change text to blue 600*/
+
+.hover:underline {
+} /*on hover, underline*/
+
+.transition-colors {
+} /*transition the color*/
+
+.duration-300 {
+} /*set transition duration to 300ms*/
+
+.focus:outline-none {
+} /*in focus state, set outline to none.*/
+
+.disabled:cursor-not-allowed {
+} /*remove the cursor pointer from button if it is in disabled state*/
 ```
