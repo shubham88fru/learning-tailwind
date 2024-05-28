@@ -35,6 +35,12 @@
 # 3. The box model: Spacing, Borders, and Display.
 
 ```css
+.h-4 {
+} /*height of 4rem*/
+
+.h-screen {
+} /*height:100vh*/
+
 .w-72 {
 } /* width equal to 18rem*/
 
@@ -58,6 +64,15 @@
 
 .hidden {
 } /*display none*/
+
+.overflow-scroll {
+} /*overflow:scroll*/
+
+.max-w-3xl {
+} /*add a max width style.*/
+
+.mx-auto {
+} /* margin left and right (i.e. along x) to auto*/
 ```
 
 # 4. Responsive design (Media queries)
@@ -80,4 +95,36 @@
 */
 .sm:my-16 {
 } /* if width is sm and beyond (i.e. 640px) then margin in y direction be 4rem.*/
+```
+
+# 5. Using flexbox
+
+```css
+.flex {
+} /*equivalent to display:flex --> setup a flexbox container*/
+
+.items-center {
+} /*equivalent to align-items:center --> vertically algin items*/
+
+.justify-between {
+} /*equivalent to justify-content:space-between*/
+```
+
+# 6. Using CSS Grids
+
+```css
+.grid {
+} /*display:grid*/
+
+.grid-rows-3 {
+} /*a grid with 3 rows*/
+
+.grid-cols-2 {
+} /*grid with 2 cols*/
+
+.gap-4 {
+} /*grid gap of 1rem (16px) between columns*/
+
+.grid-rows-[auto_1fr_auto] {
+} /*grid-template-rows: auto 1fr auto;*/
 ```
