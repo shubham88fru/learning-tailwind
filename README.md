@@ -156,3 +156,19 @@
 .disabled:cursor-not-allowed {
 } /*remove the cursor pointer from button if it is in disabled state*/
 ```
+
+# 8. Reusing styles with @apply
+
+```css
+/**
+    create a self defined css class `input` (can use this in the class attribute of html element) which is simply a group of 
+    bunch of classes applied together (see below). This is a neat
+    trick for reusing styles.
+*/
+@layer components {
+  .input {
+    @apply w-full rounded-full border px-4 py-5 text-sm
+        transition-all duration-300;
+  }
+}
+```
