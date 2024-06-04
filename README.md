@@ -79,6 +79,9 @@
 
 .rounded-full {
 } /*cirulare border*/
+
+.divide-y {
+} /* add a line between the child elements.*/
 ```
 
 # 4. Responsive design (Media queries)
@@ -114,6 +117,12 @@
 
 .justify-between {
 } /*equivalent to justify-content:space-between*/
+
+.flex-col {
+} /* change flex-direction: column*/
+
+.grow {
+} /* flex-grow: 1*/
 ```
 
 # 6. Using CSS Grids
@@ -171,4 +180,14 @@
         transition-all duration-300;
   }
 }
+```
+
+# 9. Absolute positioning, z-index etc.
+
+```css
+.absolute {
+} /* equivalent to position: absolute */
+
+.inset-0 {
+} /* top: 0; left: 0; right: 0; bottom: 0;*/
 ```
